@@ -1,0 +1,55 @@
+[0.006s] Invoking command in '/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4 -DCMAKE_INSTALL_PREFIX=/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server
+[0.046s] -- The C compiler identification is GNU 13.3.0
+[0.086s] -- The CXX compiler identification is GNU 13.3.0
+[0.098s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.282s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.443s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.466s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.473s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.536s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.537s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.591s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.606s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.676s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.770s] -- Configuring done (0.8s)
+[0.777s] -- Generating done (0.0s)
+[0.779s] -- Build files have been written to: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server
+[0.785s] Invoked command in '/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4 -DCMAKE_INSTALL_PREFIX=/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server
+[0.785s] Invoking command in '/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server -- -j16 -l16
+[0.832s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[2.664s] [100%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[2.756s] [100%] Built target add_two_ints_server
+[2.765s] Invoked command in '/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server -- -j16 -l16
+[2.770s] Invoking command in '/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server
+[2.775s] -- Install configuration: ""
+[2.775s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/lib/ros2_service_server/add_two_ints_server
+[2.776s] -- Set non-toolchain portion of runtime path of "/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/lib/ros2_service_server/add_two_ints_server" to ""
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ament_index/resource_index/package_run_dependencies/ros2_service_server
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ament_index/resource_index/parent_prefix_path/ros2_service_server
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/environment/ament_prefix_path.sh
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/environment/ament_prefix_path.dsv
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/environment/path.sh
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/environment/path.dsv
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/local_setup.bash
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/local_setup.sh
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/local_setup.zsh
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/local_setup.dsv
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/package.dsv
+[2.776s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ament_index/resource_index/packages/ros2_service_server
+[2.777s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/cmake/ros2_service_serverConfig.cmake
+[2.777s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/cmake/ros2_service_serverConfig-version.cmake
+[2.777s] -- Installing: /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/install/ros2_service_server/share/ros2_service_server/package.xml
+[2.778s] Invoked command in '/home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pranavyogesh/ros2_ws/assignment-ros2-c-service-server-PranavYogesh4/build/ros2_service_server
